@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="referrer" content="always" />
+    <meta name="author" content="qiphon" />
+    <meta name="robots" content="none" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="renderer" content="webkit" />
+    <meta name="revisit-after" content="7 days" />
+    <meta http-equiv="widow-target" content="_top" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no, shrink-to-fit=no"
+      viewport-fit="cover"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1" />
+    <title></title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        -webkit-tap-highlight-color: transparent;
+      }
+
+      .d1 {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        background-color: #fff;
+      }
+      .d1::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        height: 1px;
+        margin: auto;
+        background-color: red;
+        width: 100%;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="d1"></div>
+    </div>
+    <h1>margin auto的运用 还有 伪元素 的运用</h1>
+  </body>
+</html>
